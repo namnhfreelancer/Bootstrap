@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8121.17" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8101.14"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DemoSelector">
+            <connections>
+                <outlet property="slider" destination="Pyr-DU-aep" id="I2I-zf-Yb2"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <slider opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="Pyr-DU-aep">
+                    <rect key="frame" x="36" y="105" width="529" height="31"/>
+                </slider>
+                <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j9N-ei-jwC">
+                    <rect key="frame" x="259" y="180" width="83" height="30"/>
+                    <state key="normal" title="CrunchData"/>
+                    <connections>
+                        <action selector="onCrunchData:" destination="-1" eventType="touchUpInside" id="ZmN-da-7Qg"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="Pyr-DU-aep" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="103" id="B5h-er-QzE"/>
+                <constraint firstItem="Pyr-DU-aep" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="38" id="oa3-LW-h61"/>
+                <constraint firstItem="j9N-ei-jwC" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="qJM-yC-Fh7"/>
+                <constraint firstItem="j9N-ei-jwC" firstAttribute="top" secondItem="Pyr-DU-aep" secondAttribute="bottom" constant="45" id="si1-5V-mOu"/>
+                <constraint firstAttribute="trailing" secondItem="Pyr-DU-aep" secondAttribute="trailing" constant="37" id="vMb-w3-KAd"/>
+            </constraints>
+        </view>
+    </objects>
+</document>
