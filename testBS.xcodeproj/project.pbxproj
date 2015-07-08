@@ -9,8 +9,13 @@
 /* Begin PBXBuildFile section */
 		7A347FFC1B3D4F970095CEA4 /* DemoSelector.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A347FFA1B3D4F970095CEA4 /* DemoSelector.m */; };
 		7A347FFD1B3D4F970095CEA4 /* DemoSelector.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7A347FFB1B3D4F970095CEA4 /* DemoSelector.xib */; };
+		7A3F9BEE1B4D93F000400892 /* ANPopoverSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A3F9BED1B4D93F000400892 /* ANPopoverSlider.m */; };
+		7A3F9BF11B4D96C800400892 /* ANPopoverView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A3F9BF01B4D96C800400892 /* ANPopoverView.m */; };
+		7A3F9BF31B4D98B500400892 /* sliderlabel.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A3F9BF21B4D98B500400892 /* sliderlabel.png */; };
 		7A414C731B451E4E00634306 /* UIsliderr.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A414C711B451E4E00634306 /* UIsliderr.m */; };
 		7A414C741B451E4E00634306 /* UIsliderr.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7A414C721B451E4E00634306 /* UIsliderr.xib */; };
+		7A414C791B45282000634306 /* UISlderSpecial.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A414C771B45282000634306 /* UISlderSpecial.m */; };
+		7A414C7A1B45282000634306 /* UISlderSpecial.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7A414C781B45282000634306 /* UISlderSpecial.xib */; };
 		7A447D511B3C5975003C123C /* DemoFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A447D501B3C5975003C123C /* DemoFunction.m */; };
 		7AC041431B3BF33B00266DD0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AC041421B3BF33B00266DD0 /* main.m */; };
 		7AC0414E1B3BF33C00266DD0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AC0414D1B3BF33C00266DD0 /* Assets.xcassets */; };
@@ -25,9 +30,17 @@
 		7A347FF91B3D4F970095CEA4 /* DemoSelector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoSelector.h; sourceTree = "<group>"; };
 		7A347FFA1B3D4F970095CEA4 /* DemoSelector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoSelector.m; sourceTree = "<group>"; };
 		7A347FFB1B3D4F970095CEA4 /* DemoSelector.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DemoSelector.xib; sourceTree = "<group>"; };
+		7A3F9BEC1B4D93F000400892 /* ANPopoverSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANPopoverSlider.h; sourceTree = "<group>"; };
+		7A3F9BED1B4D93F000400892 /* ANPopoverSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANPopoverSlider.m; sourceTree = "<group>"; };
+		7A3F9BEF1B4D96C800400892 /* ANPopoverView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANPopoverView.h; sourceTree = "<group>"; };
+		7A3F9BF01B4D96C800400892 /* ANPopoverView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANPopoverView.m; sourceTree = "<group>"; };
+		7A3F9BF21B4D98B500400892 /* sliderlabel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sliderlabel.png; sourceTree = "<group>"; };
 		7A414C701B451E4E00634306 /* UIsliderr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIsliderr.h; sourceTree = "<group>"; };
 		7A414C711B451E4E00634306 /* UIsliderr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIsliderr.m; sourceTree = "<group>"; };
 		7A414C721B451E4E00634306 /* UIsliderr.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UIsliderr.xib; sourceTree = "<group>"; };
+		7A414C761B45282000634306 /* UISlderSpecial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UISlderSpecial.h; sourceTree = "<group>"; };
+		7A414C771B45282000634306 /* UISlderSpecial.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UISlderSpecial.m; sourceTree = "<group>"; };
+		7A414C781B45282000634306 /* UISlderSpecial.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UISlderSpecial.xib; sourceTree = "<group>"; };
 		7A447D4F1B3C5975003C123C /* DemoFunction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoFunction.h; sourceTree = "<group>"; };
 		7A447D501B3C5975003C123C /* DemoFunction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoFunction.m; sourceTree = "<group>"; };
 		7A82D6341B3C153200A483C6 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
@@ -57,6 +70,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7A414C751B4527EF00634306 /* UISlider */ = {
+			isa = PBXGroup;
+			children = (
+				7A3F9BF21B4D98B500400892 /* sliderlabel.png */,
+				7A414C761B45282000634306 /* UISlderSpecial.h */,
+				7A414C781B45282000634306 /* UISlderSpecial.xib */,
+				7A414C771B45282000634306 /* UISlderSpecial.m */,
+				7A3F9BEC1B4D93F000400892 /* ANPopoverSlider.h */,
+				7A3F9BED1B4D93F000400892 /* ANPopoverSlider.m */,
+				7A3F9BEF1B4D96C800400892 /* ANPopoverView.h */,
+				7A3F9BF01B4D96C800400892 /* ANPopoverView.m */,
+			);
+			name = UISlider;
+			sourceTree = "<group>";
+		};
 		7A447D4E1B3C58CA003C123C /* Basic */ = {
 			isa = PBXGroup;
 			children = (
@@ -94,6 +122,7 @@
 				7AC0414D1B3BF33C00266DD0 /* Assets.xcassets */,
 				7AC041741B3BF46600266DD0 /* Core */,
 				7A447D4E1B3C58CA003C123C /* Basic */,
+				7A414C751B4527EF00634306 /* UISlider */,
 				7AC041521B3BF33C00266DD0 /* Info.plist */,
 				7AC041411B3BF33B00266DD0 /* Supporting Files */,
 			);
@@ -183,6 +212,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				7AC041511B3BF33C00266DD0 /* LaunchScreen.storyboard in Resources */,
+				7A3F9BF31B4D98B500400892 /* sliderlabel.png in Resources */,
+				7A414C7A1B45282000634306 /* UISlderSpecial.xib in Resources */,
 				7A414C741B451E4E00634306 /* UIsliderr.xib in Resources */,
 				7A347FFD1B3D4F970095CEA4 /* DemoSelector.xib in Resources */,
 				7AC0414E1B3BF33C00266DD0 /* Assets.xcassets in Resources */,
@@ -196,12 +227,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A414C791B45282000634306 /* UISlderSpecial.m in Sources */,
 				7AC041801B3BF4C100266DD0 /* MainScreen.m in Sources */,
 				7A414C731B451E4E00634306 /* UIsliderr.m in Sources */,
 				7AC0417F1B3BF4C100266DD0 /* ConsoleScreen.m in Sources */,
 				7AC041831B3BF70400266DD0 /* BootLogic.m in Sources */,
+				7A3F9BF11B4D96C800400892 /* ANPopoverView.m in Sources */,
 				7AC0417D1B3BF4C100266DD0 /* AppDelegate.m in Sources */,
 				7A447D511B3C5975003C123C /* DemoFunction.m in Sources */,
+				7A3F9BEE1B4D93F000400892 /* ANPopoverSlider.m in Sources */,
 				7A347FFC1B3D4F970095CEA4 /* DemoSelector.m in Sources */,
 				7AC041431B3BF33B00266DD0 /* main.m in Sources */,
 			);

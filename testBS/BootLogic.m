@@ -19,7 +19,9 @@
                                     ]};
     NSDictionary* UISlider = @{SECTION: @"AllUISlider", MENU: @[
                                     @{TITLE: @"CrunchData", CLASS: @"DemoSelector"},
-                                    @{TITLE: @"UISlder",CLASS:@"UIsliderr"}
+                                    @{TITLE: @"UISlder",CLASS:@"UIsliderr"},
+                                    @{TITLE: @"UISlderSpecial",CLASS:@"UISlderSpecial"}
+
                                   ]};
     NSDictionary* advanced = @{SECTION: @"Advanced", MENU: @[
                                     @{TITLE: @"Advanced C", CLASS: @"AdvancedC"}
