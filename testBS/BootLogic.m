@@ -20,7 +20,7 @@
     NSDictionary* UISlider = @{SECTION: @"AllUISlider", MENU: @[
                                     @{TITLE: @"CrunchData", CLASS: @"DemoSelector"},
                                     @{TITLE: @"UISlder",CLASS:@"UIsliderr"},
-                                    @{TITLE: @"UISlderSpecial",CLASS:@"UISlderSpecial"}
+                                    @{TITLE: @"UISlderSpecial",CLASS:@"UISlderSpecial with Switch"}
 
                                   ]};
     NSDictionary* advanced = @{SECTION: @"Advanced", MENU: @[

@@ -16,6 +16,12 @@
 		7A414C741B451E4E00634306 /* UIsliderr.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7A414C721B451E4E00634306 /* UIsliderr.xib */; };
 		7A414C791B45282000634306 /* UISlderSpecial.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A414C771B45282000634306 /* UISlderSpecial.m */; };
 		7A414C7A1B45282000634306 /* UISlderSpecial.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7A414C781B45282000634306 /* UISlderSpecial.xib */; };
+		7A41E0A71B4EB44500ACA6A6 /* OffBlack.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A41E0A31B4EB44500ACA6A6 /* OffBlack.png */; };
+		7A41E0A81B4EB44500ACA6A6 /* OffWhite.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A41E0A41B4EB44500ACA6A6 /* OffWhite.png */; };
+		7A41E0A91B4EB44500ACA6A6 /* OnBlack.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A41E0A51B4EB44500ACA6A6 /* OnBlack.png */; };
+		7A41E0AA1B4EB44500ACA6A6 /* OnWhite.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A41E0A61B4EB44500ACA6A6 /* OnWhite.png */; };
+		7A41E0AD1B4EB7EF00ACA6A6 /* off.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A41E0AB1B4EB7EE00ACA6A6 /* off.png */; };
+		7A41E0AE1B4EB7EF00ACA6A6 /* on.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A41E0AC1B4EB7EF00ACA6A6 /* on.png */; };
 		7A447D511B3C5975003C123C /* DemoFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A447D501B3C5975003C123C /* DemoFunction.m */; };
 		7AC041431B3BF33B00266DD0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AC041421B3BF33B00266DD0 /* main.m */; };
 		7AC0414E1B3BF33C00266DD0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AC0414D1B3BF33C00266DD0 /* Assets.xcassets */; };
@@ -41,6 +47,12 @@
 		7A414C761B45282000634306 /* UISlderSpecial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UISlderSpecial.h; sourceTree = "<group>"; };
 		7A414C771B45282000634306 /* UISlderSpecial.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UISlderSpecial.m; sourceTree = "<group>"; };
 		7A414C781B45282000634306 /* UISlderSpecial.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UISlderSpecial.xib; sourceTree = "<group>"; };
+		7A41E0A31B4EB44500ACA6A6 /* OffBlack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = OffBlack.png; sourceTree = "<group>"; };
+		7A41E0A41B4EB44500ACA6A6 /* OffWhite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = OffWhite.png; sourceTree = "<group>"; };
+		7A41E0A51B4EB44500ACA6A6 /* OnBlack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = OnBlack.png; sourceTree = "<group>"; };
+		7A41E0A61B4EB44500ACA6A6 /* OnWhite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = OnWhite.png; sourceTree = "<group>"; };
+		7A41E0AB1B4EB7EE00ACA6A6 /* off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = off.png; sourceTree = "<group>"; };
+		7A41E0AC1B4EB7EF00ACA6A6 /* on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = on.png; sourceTree = "<group>"; };
 		7A447D4F1B3C5975003C123C /* DemoFunction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoFunction.h; sourceTree = "<group>"; };
 		7A447D501B3C5975003C123C /* DemoFunction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoFunction.m; sourceTree = "<group>"; };
 		7A82D6341B3C153200A483C6 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
@@ -103,6 +115,12 @@
 		7AC041351B3BF33B00266DD0 = {
 			isa = PBXGroup;
 			children = (
+				7A41E0AB1B4EB7EE00ACA6A6 /* off.png */,
+				7A41E0AC1B4EB7EF00ACA6A6 /* on.png */,
+				7A41E0A31B4EB44500ACA6A6 /* OffBlack.png */,
+				7A41E0A41B4EB44500ACA6A6 /* OffWhite.png */,
+				7A41E0A51B4EB44500ACA6A6 /* OnBlack.png */,
+				7A41E0A61B4EB44500ACA6A6 /* OnWhite.png */,
 				7AC041401B3BF33B00266DD0 /* testBS */,
 				7AC0413F1B3BF33B00266DD0 /* Products */,
 			);
@@ -212,8 +230,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				7AC041511B3BF33C00266DD0 /* LaunchScreen.storyboard in Resources */,
+				7A41E0AD1B4EB7EF00ACA6A6 /* off.png in Resources */,
+				7A41E0AE1B4EB7EF00ACA6A6 /* on.png in Resources */,
+				7A41E0A71B4EB44500ACA6A6 /* OffBlack.png in Resources */,
 				7A3F9BF31B4D98B500400892 /* sliderlabel.png in Resources */,
+				7A41E0A91B4EB44500ACA6A6 /* OnBlack.png in Resources */,
+				7A41E0A81B4EB44500ACA6A6 /* OffWhite.png in Resources */,
 				7A414C7A1B45282000634306 /* UISlderSpecial.xib in Resources */,
+				7A41E0AA1B4EB44500ACA6A6 /* OnWhite.png in Resources */,
 				7A414C741B451E4E00634306 /* UIsliderr.xib in Resources */,
 				7A347FFD1B3D4F970095CEA4 /* DemoSelector.xib in Resources */,
 				7AC0414E1B3BF33C00266DD0 /* Assets.xcassets in Resources */,

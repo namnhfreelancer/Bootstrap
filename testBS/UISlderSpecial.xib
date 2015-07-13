@@ -7,6 +7,7 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="UISlderSpecial">
             <connections>
                 <outlet property="Slider" destination="Wqu-k2-Upk" id="cUh-mo-2TB"/>
+                <outlet property="firstButton" destination="poc-JO-pLe" id="SFg-od-78c"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -22,13 +23,18 @@
                     <rect key="frame" x="18" y="285" width="564" height="31"/>
                     <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                 </slider>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="poc-JO-pLe">
+                    <rect key="frame" x="285" y="353" width="30" height="34"/>
+                </button>
             </subviews>
             <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
             <constraints>
                 <constraint firstItem="tc0-lt-Pxc" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="2pa-WA-Slb"/>
                 <constraint firstItem="Wqu-k2-Upk" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="KBT-H6-o18"/>
+                <constraint firstItem="poc-JO-pLe" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" constant="70" id="M8E-zi-aDd"/>
                 <constraint firstItem="tc0-lt-Pxc" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="PMi-gl-euo"/>
                 <constraint firstAttribute="trailing" secondItem="Wqu-k2-Upk" secondAttribute="trailing" constant="20" id="Udy-Wc-T2Y"/>
+                <constraint firstItem="poc-JO-pLe" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="c3S-6H-uus"/>
                 <constraint firstItem="Wqu-k2-Upk" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="kUd-Il-GQg"/>
                 <constraint firstItem="Wqu-k2-Upk" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="px9-ss-QeW"/>
             </constraints>
