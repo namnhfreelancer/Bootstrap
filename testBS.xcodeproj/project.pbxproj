@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		7A347FFC1B3D4F970095CEA4 /* DemoSelector.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A347FFA1B3D4F970095CEA4 /* DemoSelector.m */; };
 		7A347FFD1B3D4F970095CEA4 /* DemoSelector.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7A347FFB1B3D4F970095CEA4 /* DemoSelector.xib */; };
+		7A38ED281B54A96100025A0C /* SkewImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A38ED261B54A96100025A0C /* SkewImage.m */; };
+		7A38ED291B54A96100025A0C /* SkewImage.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7A38ED271B54A96100025A0C /* SkewImage.xib */; };
+		7A38ED2B1B54AA7400025A0C /* ngoc-trinh.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7A38ED2A1B54AA7400025A0C /* ngoc-trinh.jpg */; };
 		7A3F9BEE1B4D93F000400892 /* ANPopoverSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A3F9BED1B4D93F000400892 /* ANPopoverSlider.m */; };
 		7A3F9BF11B4D96C800400892 /* ANPopoverView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A3F9BF01B4D96C800400892 /* ANPopoverView.m */; };
 		7A3F9BF31B4D98B500400892 /* sliderlabel.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A3F9BF21B4D98B500400892 /* sliderlabel.png */; };
@@ -36,6 +39,10 @@
 		7A347FF91B3D4F970095CEA4 /* DemoSelector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoSelector.h; sourceTree = "<group>"; };
 		7A347FFA1B3D4F970095CEA4 /* DemoSelector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoSelector.m; sourceTree = "<group>"; };
 		7A347FFB1B3D4F970095CEA4 /* DemoSelector.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DemoSelector.xib; sourceTree = "<group>"; };
+		7A38ED251B54A96100025A0C /* SkewImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkewImage.h; sourceTree = "<group>"; };
+		7A38ED261B54A96100025A0C /* SkewImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SkewImage.m; sourceTree = "<group>"; };
+		7A38ED271B54A96100025A0C /* SkewImage.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SkewImage.xib; sourceTree = "<group>"; };
+		7A38ED2A1B54AA7400025A0C /* ngoc-trinh.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "ngoc-trinh.jpg"; sourceTree = "<group>"; };
 		7A3F9BEC1B4D93F000400892 /* ANPopoverSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANPopoverSlider.h; sourceTree = "<group>"; };
 		7A3F9BED1B4D93F000400892 /* ANPopoverSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANPopoverSlider.m; sourceTree = "<group>"; };
 		7A3F9BEF1B4D96C800400892 /* ANPopoverView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANPopoverView.h; sourceTree = "<group>"; };
@@ -82,6 +89,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7A38ED241B54A8AE00025A0C /* Advanced */ = {
+			isa = PBXGroup;
+			children = (
+				7A38ED251B54A96100025A0C /* SkewImage.h */,
+				7A38ED261B54A96100025A0C /* SkewImage.m */,
+				7A38ED271B54A96100025A0C /* SkewImage.xib */,
+			);
+			name = Advanced;
+			sourceTree = "<group>";
+		};
 		7A414C751B4527EF00634306 /* UISlider */ = {
 			isa = PBXGroup;
 			children = (
@@ -115,6 +132,7 @@
 		7AC041351B3BF33B00266DD0 = {
 			isa = PBXGroup;
 			children = (
+				7A38ED2A1B54AA7400025A0C /* ngoc-trinh.jpg */,
 				7A41E0AB1B4EB7EE00ACA6A6 /* off.png */,
 				7A41E0AC1B4EB7EF00ACA6A6 /* on.png */,
 				7A41E0A31B4EB44500ACA6A6 /* OffBlack.png */,
@@ -142,6 +160,7 @@
 				7A447D4E1B3C58CA003C123C /* Basic */,
 				7A414C751B4527EF00634306 /* UISlider */,
 				7AC041521B3BF33C00266DD0 /* Info.plist */,
+				7A38ED241B54A8AE00025A0C /* Advanced */,
 				7AC041411B3BF33B00266DD0 /* Supporting Files */,
 			);
 			path = testBS;
@@ -230,6 +249,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7AC041511B3BF33C00266DD0 /* LaunchScreen.storyboard in Resources */,
+				7A38ED2B1B54AA7400025A0C /* ngoc-trinh.jpg in Resources */,
 				7A41E0AD1B4EB7EF00ACA6A6 /* off.png in Resources */,
 				7A41E0AE1B4EB7EF00ACA6A6 /* on.png in Resources */,
 				7A41E0A71B4EB44500ACA6A6 /* OffBlack.png in Resources */,
@@ -241,6 +261,7 @@
 				7A414C741B451E4E00634306 /* UIsliderr.xib in Resources */,
 				7A347FFD1B3D4F970095CEA4 /* DemoSelector.xib in Resources */,
 				7AC0414E1B3BF33C00266DD0 /* Assets.xcassets in Resources */,
+				7A38ED291B54A96100025A0C /* SkewImage.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +279,7 @@
 				7AC041831B3BF70400266DD0 /* BootLogic.m in Sources */,
 				7A3F9BF11B4D96C800400892 /* ANPopoverView.m in Sources */,
 				7AC0417D1B3BF4C100266DD0 /* AppDelegate.m in Sources */,
+				7A38ED281B54A96100025A0C /* SkewImage.m in Sources */,
 				7A447D511B3C5975003C123C /* DemoFunction.m in Sources */,
 				7A3F9BEE1B4D93F000400892 /* ANPopoverSlider.m in Sources */,
 				7A347FFC1B3D4F970095CEA4 /* DemoSelector.m in Sources */,

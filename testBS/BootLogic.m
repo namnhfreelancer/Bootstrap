@@ -20,11 +20,12 @@
     NSDictionary* UISlider = @{SECTION: @"AllUISlider", MENU: @[
                                     @{TITLE: @"CrunchData", CLASS: @"DemoSelector"},
                                     @{TITLE: @"UISlder",CLASS:@"UIsliderr"},
-                                    @{TITLE: @"UISlderSpecial",CLASS:@"UISlderSpecial with Switch"}
+                                    @{TITLE: @"UISlder Special with Switch",CLASS:@"UISlderSpecial"}
 
                                   ]};
     NSDictionary* advanced = @{SECTION: @"Advanced", MENU: @[
-                                    @{TITLE: @"Advanced C", CLASS: @"AdvancedC"}
+                                    @{TITLE: @"Advanced C", CLASS: @"AdvancedC"},
+                                    @{TITLE: @"Skew Image", CLASS: @"SkewImage"}
                              ]};
     
     mainScreen.menu = @[basic, UISlider, advanced];
